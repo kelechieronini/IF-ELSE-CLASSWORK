@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 8px solid purple;
+    gap: 50px;
+    margin: 100px auto;
+    background-color: aliceblue;
+}
+
+#head-text {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#button {
+    height: 50px;
+    width: 200px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}

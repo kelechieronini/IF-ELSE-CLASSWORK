@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Manipulation</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <p id="head-text">This is my first javascript code</p>
+
+      <button id="button">Click Me</button>
+    </div>
+
+    <script>
+      let headText = document.getElementById("head-text");
+      let buttonText = document.getElementById("button");
+
+      headText.innerText = "This will not be my last javascript code";
+      buttonText.innerText = "Submit";
+    </script>
+  </body>
+</html>
